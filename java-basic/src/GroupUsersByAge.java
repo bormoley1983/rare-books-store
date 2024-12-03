@@ -5,7 +5,7 @@ import java.util.Map;
 public class GroupUsersByAge {
     public static void main(String[] args) {
 
-        List<User> users = new ArrayList<User>(){
+        List<User> users = new ArrayList<>(){
             {
                 add(new User("Name1", 19, "Workplace1", "Address1"));
                 add(new User("Name2", 18, "Workplace2", "Address2"));
